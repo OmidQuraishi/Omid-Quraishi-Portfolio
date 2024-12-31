@@ -1954,6 +1954,11 @@ body{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2812,12 +2817,44 @@ body{
     height: 500px;
   }
 
+  .md\:h-\[400px\]{
+    height: 400px;
+  }
+
   .md\:w-8\/12{
     width: 66.666667%;
   }
 
   .md\:w-\[1000px\]{
     width: 1000px;
+  }
+
+  .md\:w-\[500px\]{
+    width: 500px;
+  }
+
+  .md\:w-\[100px\]{
+    width: 100px;
+  }
+
+  .md\:w-\[800px\]{
+    width: 800px;
+  }
+
+  .md\:w-\[400px\]{
+    width: 400px;
+  }
+
+  .md\:w-\[600px\]{
+    width: 600px;
+  }
+
+  .md\:w-\[700px\]{
+    width: 700px;
+  }
+
+  .md\:w-\[450px\]{
+    width: 450px;
   }
 
   .md\:flex-row{
@@ -2842,8 +2879,17 @@ body{
     padding-bottom: 0px;
   }
 
+  .md\:text-left{
+    text-align: left;
+  }
+
   .md\:text-6xl{
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
     line-height: 1;
   }
 }
