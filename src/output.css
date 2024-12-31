@@ -791,14 +791,19 @@ body{
   margin-bottom: 7rem;
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mb-10{
@@ -809,16 +814,16 @@ body{
   margin-bottom: 1.25rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
+.mb-7{
+  margin-bottom: 1.75rem;
 }
 
 .box-border{
@@ -960,6 +965,11 @@ body{
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .flex-shrink{
@@ -1492,6 +1502,10 @@ body{
   gap: 2.5rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
@@ -1502,6 +1516,10 @@ body{
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2788,10 +2806,6 @@ body{
     display: none;
   }
 
-  .max-sm\:justify-center{
-    justify-content: center;
-  }
-
   .max-sm\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -2805,6 +2819,11 @@ body{
 }
 
 @media (min-width: 768px){
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
