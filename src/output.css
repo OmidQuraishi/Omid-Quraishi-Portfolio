@@ -872,6 +872,10 @@ body{
   height: 1.5rem;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-16{
   height: 4rem;
 }
@@ -884,12 +888,8 @@ body{
   height: 350px;
 }
 
-.h-24{
-  height: 6rem;
-}
-
-.h-10{
-  height: 2.5rem;
+.w-10{
+  width: 2.5rem;
 }
 
 .w-16{
@@ -918,14 +918,6 @@ body{
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
-}
-
-.w-24{
-  width: 6rem;
-}
-
-.w-10{
-  width: 2.5rem;
 }
 
 .w-fit{
@@ -1947,6 +1939,11 @@ body{
   background-color: rgb(0 255 153 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(28 28 34 / var(--tw-bg-opacity, 1));
@@ -1955,16 +1952,6 @@ body{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
 }
 
 .decoration-slice{
@@ -2075,10 +2062,6 @@ body{
 .object-scale-down{
   -o-object-fit: scale-down;
      object-fit: scale-down;
-}
-
-.p-3{
-  padding: 0.75rem;
 }
 
 .p-2{
@@ -2829,44 +2812,12 @@ body{
     height: 500px;
   }
 
-  .md\:h-\[100px\]{
-    height: 100px;
-  }
-
-  .md\:h-\[1000px\]{
-    height: 1000px;
-  }
-
-  .md\:h-\[800px\]{
-    height: 800px;
-  }
-
-  .md\:w-\[400px\]{
-    width: 400px;
-  }
-
-  .md\:w-\[500px\]{
-    width: 500px;
-  }
-
-  .md\:w-\[500\]{
-    width: 500;
-  }
-
   .md\:w-8\/12{
     width: 66.666667%;
   }
 
-  .md\:w-\[10px\]{
-    width: 10px;
-  }
-
   .md\:w-\[1000px\]{
     width: 1000px;
-  }
-
-  .md\:w-\[800px\]{
-    width: 800px;
   }
 
   .md\:flex-row{
@@ -2898,43 +2849,9 @@ body{
 }
 
 @media (min-width: 1024px){
-  .lg\:h-\[500px\]{
-    height: 500px;
-  }
-
-  .lg\:h-\[450px\]{
-    height: 450px;
-  }
-
-  .lg\:h-\[100px\]{
-    height: 100px;
-  }
-
-  .lg\:w-\[500px\]{
-    width: 500px;
-  }
-
-  .lg\:w-\[450px\]{
-    width: 450px;
-  }
-
-  .lg\:w-\[100px\]{
-    width: 100px;
-  }
-
-  .lg\:bg-red-500{
-    --tw-bg-opacity: 1;
-    background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
-  }
-
   .lg\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .lg\:text-9xl{
-    font-size: 8rem;
-    line-height: 1;
   }
 
   .lg\:text-8xl{
