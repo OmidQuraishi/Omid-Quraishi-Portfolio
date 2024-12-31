@@ -11,7 +11,7 @@
     @apply text-accent border-b-2 border-accent;
   }
   .download {
-    @apply hover:bg-accent hover:text-primary inline-block px-4 py-2 rounded;
+    @apply hover:bg-accent hover:text-primary inline-block px-4 py-2 rounded font-extrabold uppercase;
   }
   .icons {
     @apply border border-accent w-8 h-8 flex justify-center items-center rounded-full text-accent hover:text-primary hover:bg-accent;
