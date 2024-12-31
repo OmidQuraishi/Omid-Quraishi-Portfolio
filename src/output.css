@@ -737,10 +737,6 @@ body{
   z-index: 10;
 }
 
-.order-1{
-  order: 1;
-}
-
 .float-start{
   float: inline-start;
 }
@@ -1024,6 +1020,20 @@ body{
 
 .transform-none{
   transform: none;
+}
+
+@keyframes wiggle{
+  0%,50%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.animate-wiggle{
+  animation: wiggle 1s ease-in-out 1 backwards 2s;
 }
 
 .cursor-pointer{
@@ -2145,12 +2155,16 @@ body{
   padding-bottom: 1rem;
 }
 
+.pb-12{
+  padding-bottom: 3rem;
+}
+
 .pb-5{
   padding-bottom: 1.25rem;
 }
 
-.pt-5{
-  padding-top: 1.25rem;
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-left{

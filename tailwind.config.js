@@ -3,6 +3,15 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
+      keyframes: {
+        wiggle: {
+          "0%,50%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out 1 backwards 2s",
+      },
       fontFamily: {
         primary: "JetBrains Mono",
       },
