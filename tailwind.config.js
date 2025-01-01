@@ -10,7 +10,7 @@ module.exports = {
         },
       },
       animation: {
-        wiggle: "wiggle 1s ease-in-out 1 backwards 2s",
+        wiggle: "wiggle 0.4s ease-in-out backwards 1s",
       },
       fontFamily: {
         primary: "JetBrains Mono",

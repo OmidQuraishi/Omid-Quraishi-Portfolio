@@ -16,4 +16,13 @@
   .icons {
     @apply border border-accent w-8 h-8 flex justify-center items-center rounded-full text-accent hover:text-primary hover:bg-accent;
   }
+  .text-outline {
+    -webkit-text-stroke: 1px #fff;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+  .text-outline-hover:hover .arrow {
+    background-color: #00ff99;
+  }
 }
