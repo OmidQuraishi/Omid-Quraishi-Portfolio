@@ -624,6 +624,25 @@ body{
   background-color: #00ff99;
 }
 
+.bg-custome {
+  background: #27272c;
+}
+
+.scroll::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.box:hover.scroll::-webkit-scrollbar {
+  visibility: visible;
+  background-color: transparent;
+  width: 3px;
+}
+
+.box:hover::-webkit-scrollbar-thumb {
+  background-color: #00ff99;
+  border-radius: 100px;
+}
+
 .container{
   width: 100%;
 }
@@ -741,6 +760,10 @@ body{
   isolation: auto;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .float-start{
   float: inline-start;
 }
@@ -798,6 +821,10 @@ body{
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
 }
 
 .mb-5{
@@ -941,6 +968,10 @@ body{
   height: 280px;
 }
 
+.max-h-\[430px\]{
+  max-height: 430px;
+}
+
 .w-14{
   width: 3.5rem;
 }
@@ -959,6 +990,10 @@ body{
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .flex-shrink{
@@ -1313,6 +1348,10 @@ body{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -1495,6 +1534,10 @@ body{
 
 .justify-items-stretch{
   justify-items: stretch;
+}
+
+.gap-16{
+  gap: 4rem;
 }
 
 .gap-20{
@@ -2095,6 +2138,10 @@ body{
   padding: 0.5rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2125,6 +2172,11 @@ body{
   padding-bottom: 0.75rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -2135,6 +2187,14 @@ body{
 
 .pb-5{
   padding-bottom: 1.25rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
+}
+
+.pt-7{
+  padding-top: 1.75rem;
 }
 
 .pt-8{
@@ -2744,6 +2804,11 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-accent:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 255 153 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:bg-transparent:hover{
   background-color: transparent;
 }
@@ -2755,6 +2820,11 @@ body{
 .hover\:text-accent:hover{
   --tw-text-opacity: 1;
   color: rgb(0 255 153 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-primary:hover{
+  --tw-text-opacity: 1;
+  color: rgb(28 28 34 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover{
@@ -2796,9 +2866,17 @@ body{
     margin-right: 1.25rem;
   }
 
+  .max-sm\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .max-sm\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .max-sm\:pt-7{
+    padding-top: 1.75rem;
   }
 }
 

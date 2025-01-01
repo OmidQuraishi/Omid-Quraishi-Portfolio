@@ -25,4 +25,22 @@
   .text-outline-hover:hover .arrow {
     background-color: #00ff99;
   }
+  .bg-custome {
+    background: #27272c;
+  }
+
+  .scroll::-webkit-scrollbar {
+    visibility: hidden;
+  }
+
+  .box:hover.scroll::-webkit-scrollbar {
+    visibility: visible;
+    background-color: transparent;
+    width: 3px;
+    height: 30px;
+  }
+  .box:hover::-webkit-scrollbar-thumb {
+    background-color: #00ff99;
+    border-radius: 100px;
+  }
 }
