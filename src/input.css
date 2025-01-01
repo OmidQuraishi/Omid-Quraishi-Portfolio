@@ -28,19 +28,33 @@
   .bg-custome {
     background: #27272c;
   }
-
   .scroll::-webkit-scrollbar {
-    visibility: hidden;
-  }
-
-  .box:hover.scroll::-webkit-scrollbar {
-    visibility: visible;
     background-color: transparent;
     width: 3px;
     height: 30px;
   }
-  .box:hover::-webkit-scrollbar-thumb {
+  .scroll::-webkit-scrollbar-thumb {
     background-color: #00ff99;
     border-radius: 100px;
+  }
+  .skill li::before {
+    content: attr(data-name);
+    color: #27272c;
+    background-color: #9b9b9b;
+    visibility: hidden;
+    position: absolute;
+    width: fit-content;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  .skill li:hover::before {
+    visibility: visible;
+    top: 10%;
   }
 }
